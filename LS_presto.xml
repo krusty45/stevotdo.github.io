@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <project name="PantechDevTeam/android_device_pantech_presto" path="device/pantech/presto" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_device_pantech_msm8x60-common" path="device/pantech/msm8x60-common" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_device_pantech_msm8660-common" path="device/pantech/msm8660-common" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_kernel_pantech_msm8660-common" path="kernel/pantech/msm8660-common" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_vendor_pantech_msm8x60-common" path="vendor/pantech/msm8x60-common" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_vendor_pantech_presto" path="vendor/pantech/presto" remote="github" revision="cm-11.0" />
+  <remove-project name="LiquidSmooth/android_frameworks_av" />
+  <remove-project name="LiquidSmooth/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_hardware_broadcom_wlan" />
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <remove-project name="LiquidSmooth/android_hardware_libhardware_legacy" />
+  <remove-project name="LiquidSmooth/android_hardware_qcom_audio-caf" />
+  <project name="stevotdo/ls_android_frameworks_av" path="frameworks/av" remote="github" revision="kitkat" />
+  <project name="stevotdo/ls_android_frameworks_base" path="frameworks/base" remote="github" revision="kitkat3" />
+  <project name="PantechDevTeam/android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="cm-11.0" />
+  <project name="PantechDevTeam/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="cm-11.0" />
+  <project name="stevotdo/ls_android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="kitkat" />
+  <project name="stevotdo/ls_android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="github" revision="kitkat" />
+</manifest>
