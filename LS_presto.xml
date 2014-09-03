@@ -4,10 +4,10 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <project name="PantechDevTeam/android_device_pantech_presto" path="device/pantech/presto" remote="github" revision="cm-11.0" />
-  <project name="PantechDevTeam/android_device_pantech_msm8x60-common" path="device/pantech/msm8x60-common" remote="github" revision="cm-11.0" />
-  <project name="PantechDevTeam/android_device_pantech_msm8660-common" path="device/pantech/msm8660-common" remote="github" revision="cm-11.0" />
-  <project name="PantechDevTeam/android_kernel_pantech_msm8660-common" path="kernel/pantech/msm8660-common" remote="github" revision="cm-11.0" />
+  <project name="stevotdo/android_device_pantech_presto" path="device/pantech/presto" remote="github" revision="kitkat" />
+  <project name="stevotdo/android_device_pantech_msm8x60-common" path="device/pantech/msm8x60-common" remote="github" revision="kitkat" />
+  <project name="stevotdo/android_device_pantech_msm8660-common" path="device/pantech/msm8660-common" remote="github" revision="kitkat" />
+  <project name="stevotdo/android_kernel_pantech_msm8660-common" path="kernel/pantech/msm8660-common" remote="github" revision="kitkat" />
   <project name="PantechDevTeam/android_vendor_pantech_msm8x60-common" path="vendor/pantech/msm8x60-common" remote="github" revision="cm-11.0" />
   <project name="PantechDevTeam/android_vendor_pantech_presto" path="vendor/pantech/presto" remote="github" revision="cm-11.0" />
   <remove-project name="android_frameworks_av" />
