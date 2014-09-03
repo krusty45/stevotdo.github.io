@@ -68,7 +68,11 @@ $ cp LS_presto.xml ~/liquid/.repo/local_manifests
         </h5>
         <pre><code>$ repo sync
 </code></pre>
-
+          <p><b>Finally pull in the Device Specific Make File</b></p>
+        </h5>
+        <pre><code>$  wget --no-check-certificate https://raw.githubusercontent.com/stevotdo/stevotdo.github.io/master/liquid.mk
+$ cp liquid.mk ~/liquid/device/pantech/presto
+</code></pre>
         <h5>
           <p>Build LiquidSmooth with the following command</p>
         </h5>
